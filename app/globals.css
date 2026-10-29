@@ -63,7 +63,8 @@ html[data-theme="dark"] :is(.bg-cream, .bg-white, .bg-gray-50, .bg-gray-100, .bg
   [class*="bg-[#fffefa]"], [class*="bg-[#fcfbf8]"], [class*="bg-[#fbf9f4]"],
   [class*="bg-[#f1e9df]"], [class*="bg-[#eee4d8]"], [class*="bg-[#f3eee6]"],
   [class*="bg-[#f3e8d9]"], [class*="bg-[#faf8f4]"], [class*="bg-[#f2ece3]"],
-  [class*="bg-[#edf1e9]"], [class*="bg-[#f1e5d3]"], [class*="bg-[#d5c2ac]"]) { background-color: #211c19 !important; }
+  [class*="bg-[#edf1e9]"], [class*="bg-[#f1e5d3]"], [class*="bg-[#d5c2ac]"],
+  [class*="bg-[#f8f5ef]"]) { background-color: #211c19 !important; }
 html[data-theme="dark"] :is([class*="bg-white/80"], [class*="bg-white/90"], [class*="bg-white/95"]) { background-color: rgb(39 32 28 / .94) !important; }
 html[data-theme="dark"] :is([class*="bg-gray-200"]) { background-color: #39312c !important; }
 html[data-theme="dark"] :is([class*="bg-gold/"]) { background-color: #382923 !important; }

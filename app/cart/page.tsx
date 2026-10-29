@@ -19,6 +19,7 @@ import { useCart } from '@/context/CartContext';
 import { calculateOrderSummary, generateWhatsAppUrl, validateCustomerDetails } from '@/lib/whatsapp';
 import config from '@/lib/config';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import SavedCustomerDetails from '@/components/SavedCustomerDetails';
 
 export default function CartPage() {
   const { items, removeFromCart, updateQuantity, clearCart, getTotalItems } = useCart();
@@ -223,6 +224,10 @@ export default function CartPage() {
                 <h2 className="text-xl font-poppins font-bold text-gold mb-4">
                   Shipping Details
                 </h2>
+                <SavedCustomerDetails
+                  values={{ name: customerDetails.name, phone: customerDetails.phone, address: customerDetails.address, city: customerDetails.city }}
+                  onUse={(saved) => setCustomerDetails((current) => ({ ...current, ...saved }))}
+                />
                 
                 <div>
                   <label className="label-luxury">Full Name *</label>

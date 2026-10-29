@@ -14,6 +14,7 @@ import {
 import { useCart } from '@/context/CartContext';
 import { calculateOrderSummary, generateWhatsAppUrl, validateCustomerDetails } from '@/lib/whatsapp';
 import config from '@/lib/config';
+import SavedCustomerDetails from '@/components/SavedCustomerDetails';
 
 interface CartDrawerProps {
   isOpen: boolean;
@@ -147,6 +148,10 @@ export default function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                   <h3 className="text-lg font-poppins font-semibold text-gold">
                     Shipping Details
                   </h3>
+                  <SavedCustomerDetails
+                    values={{ name: customerDetails.name, phone: customerDetails.phone, address: customerDetails.address, city: customerDetails.city }}
+                    onUse={(saved) => setCustomerDetails((current) => ({ ...current, ...saved }))}
+                  />
                   
                   <div>
                     <label className="label-luxury">Full Name *</label>
