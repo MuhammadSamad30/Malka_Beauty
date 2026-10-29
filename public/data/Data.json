@@ -1,0 +1,202 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Royal Gold Hair Oil",
+      "description": "Premium hair oil infused with 24K gold particles for ultimate shine and nourishment.",
+      "price": 2999,
+      "discountPrice": 2499,
+      "category": "Premium",
+      "image": "product-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Argan Elixir Serum",
+      "description": "Moroccan argan oil blended with vitamin E for deep conditioning and frizz control.",
+      "price": 1899,
+      "discountPrice": 1599,
+      "category": "Serums",
+      "image": "product-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Coconut & Almond Nourisher",
+      "description": "Rich blend of cold-pressed coconut and sweet almond oil for hair growth.",
+      "price": 1499,
+      "discountPrice": 1299,
+      "category": "Organic",
+      "image": "product-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Black Seed Strengthening Oil",
+      "description": "Ancient formula with black cumin seed oil to prevent hair fall and strengthen roots.",
+      "price": 2199,
+      "discountPrice": 1899,
+      "category": "Therapeutic",
+      "image": "product-4.png"
+    },
+    {
+      "id": 5,
+      "title": "Rose & Jasmine Hair Mist",
+      "description": "Lightweight floral mist with natural oils for daily hydration and fragrance.",
+      "price": 999,
+      "discountPrice": 799,
+      "category": "Mists",
+      "image": "product-5.png"
+    },
+    {
+      "id": 6,
+      "title": "Jojoba & Vitamin E Blend",
+      "description": "Deep moisturizing treatment with jojoba oil and vitamin E for damaged hair.",
+      "price": 1699,
+      "discountPrice": 1399,
+      "category": "Organic",
+      "image": "product-6.png"
+    },
+    {
+      "id": 7,
+      "title": "Luxury Keratin Treatment Oil",
+      "description": "Professional-grade keratin oil for smooth, straight, and frizz-free hair.",
+      "price": 3499,
+      "discountPrice": 2999,
+      "category": "Premium",
+      "image": "product-7.png"
+    },
+    {
+      "id": 8,
+      "title": "Rosemary & Mint Scalp Tonic",
+      "description": "Stimulating scalp tonic with rosemary and peppermint for improved circulation.",
+      "price": 1299,
+      "discountPrice": 1099,
+      "category": "Therapeutic",
+      "image": "product-8.png"
+    },
+    {
+      "id": 9,
+      "title": "Monoi Oil Hair Perfume",
+      "description": "Exotic Tahitian monoi oil with gardenia petals for luxurious hair perfume.",
+      "price": 1899,
+      "discountPrice": 1599,
+      "category": "Mists",
+      "image": "product-9.png"
+    },
+    {
+      "id": 10,
+      "title": "Castor & Bhringraj Elixir",
+      "description": "Traditional Ayurvedic blend with castor oil and bhringraj for hair regrowth.",
+      "price": 2499,
+      "discountPrice": 2099,
+      "category": "Organic",
+      "image": "product-10.png"
+    },
+    {
+      "id": 11,
+      "title": "Diamond Shine Hair Serum",
+      "description": "Light-reflecting serum with diamond dust for instant shine and polish.",
+      "price": 3999,
+      "discountPrice": 3499,
+      "category": "Premium",
+      "image": "product-11.png"
+    },
+    {
+      "id": 12,
+      "title": "Lavender & Chamomile Night Oil",
+      "description": "Calming overnight oil treatment with lavender and chamomile extracts.",
+      "price": 1599,
+      "discountPrice": 1299,
+      "category": "Therapeutic",
+      "image": "product-12.png"
+    },
+    {
+      "id": 13,
+      "title": "Pomegranate & Silk Protein Mask",
+      "description": "Intensive repair mask with pomegranate and silk proteins for hair strength.",
+      "price": 1999,
+      "discountPrice": 1699,
+      "category": "Masks",
+      "image": "product-13.png"
+    },
+    {
+      "id": 14,
+      "title": "Sandalwood & Saffron Oil",
+      "description": "Luxury oil with sandalwood and saffron for traditional hair care rituals.",
+      "price": 2799,
+      "discountPrice": 2399,
+      "category": "Premium",
+      "image": "product-14.png"
+    },
+    {
+      "id": 15,
+      "title": "Tea Tree & Eucalyptus Scalp Cleanse",
+      "description": "Purifying scalp treatment with tea tree and eucalyptus for dandruff control.",
+      "price": 1399,
+      "discountPrice": 1199,
+      "category": "Therapeutic",
+      "image": "product-15.png"
+    },
+    {
+      "id": 16,
+      "title": "Avocado & Shea Butter Cream",
+      "description": "Rich moisturizing cream with avocado oil and shea butter for dry hair.",
+      "price": 1799,
+      "discountPrice": 1499,
+      "category": "Organic",
+      "image": "product-16.png"
+    },
+    {
+      "id": 17,
+      "title": "Platinum Protection Thermal Spray",
+      "description": "Heat protectant spray with platinum particles for styling up to 450°F.",
+      "price": 2199,
+      "discountPrice": 1899,
+      "category": "Mists",
+      "image": "product-17.png"
+    },
+    {
+      "id": 18,
+      "title": "Ginger & Lemon Energizing Oil",
+      "description": "Zesty oil blend with ginger and lemon for scalp stimulation and growth.",
+      "price": 1299,
+      "discountPrice": 1099,
+      "category": "Organic",
+      "image": "product-18.png"
+    },
+    {
+      "id": 19,
+      "title": "Pearl & Collagen Restorative Mask",
+      "description": "Anti-aging mask with pearl extract and collagen for youthful hair.",
+      "price": 3299,
+      "discountPrice": 2799,
+      "category": "Masks",
+      "image": "product-19.png"
+    },
+    {
+      "id": 20,
+      "title": "Ylang-Ylang & Patchouli Gloss",
+      "description": "Aromatic hair gloss with ylang-ylang and patchouli for shine and fragrance.",
+      "price": 1699,
+      "discountPrice": 1399,
+      "category": "Serums",
+      "image": "product-20.png"
+    },
+    {
+      "id": 21,
+      "title": "Bamboo & Biotin Growth Serum",
+      "description": "Advanced serum with bamboo extract and biotin for faster hair growth.",
+      "price": 2599,
+      "discountPrice": 2199,
+      "category": "Serums",
+      "image": "product-21.png"
+    },
+    {
+      "id": 22,
+      "title": "Gold & Saffron Royal Treatment",
+      "description": "Ultimate luxury treatment with 24K gold and premium saffron for royal hair care.",
+      "price": 4999,
+      "discountPrice": 4299,
+      "category": "Premium",
+      "image": "product-22.png"
+    }
+  ]
+}
