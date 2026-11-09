@@ -91,13 +91,13 @@ export default function ProductCard({ id, title, description, price, discountPri
           </div>
         </Link>
       </div>
-      <div className={`grid min-w-0 grid-cols-[5.8rem_minmax(0,1fr)] items-center gap-2 border-t border-[#eee7df] p-3 sm:px-4 ${viewMode === 'list' ? 'sm:w-64 sm:border-l sm:border-t-0 sm:p-5' : ''}`}>
-        <div className="flex h-10 w-full items-center justify-between rounded-xl border border-gray-200 px-1">
+      <div className={`grid min-w-0 grid-cols-[4.35rem_minmax(0,1fr)] items-center gap-1.5 border-t border-[#eee7df] p-2 sm:grid-cols-[5.8rem_minmax(0,1fr)] sm:gap-2 sm:px-4 sm:py-3 ${viewMode === 'list' ? 'sm:w-64 sm:border-l sm:border-t-0 sm:p-5' : ''}`}>
+        <div className="flex h-10 w-full items-center justify-between rounded-xl border border-gray-200 px-0.5 sm:px-1">
           <button type="button" onClick={() => setQuantity(Math.max(1, quantity - 1))} aria-label="Decrease quantity" className="p-2 text-gray-500 hover:text-gray-900"><Minus size={14} /></button>
           <span className="min-w-6 text-center text-sm font-medium">{quantity}</span>
           <button type="button" onClick={() => setQuantity(quantity + 1)} aria-label="Increase quantity" className="p-2 text-gray-500 hover:text-gray-900"><Plus size={14} /></button>
         </div>
-        <button type="button" onClick={handleAddToCart} className="inline-flex h-10 w-full min-w-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-xl bg-[#69372e] px-2 text-xs font-semibold text-white transition hover:bg-[#a45c49] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 sm:gap-2 sm:px-3 sm:text-sm"><ShoppingBag size={15} className="shrink-0" /> <span>{inCart ? 'Update bag' : 'Add to bag'}</span></button>
+        <button type="button" onClick={handleAddToCart} className="inline-flex h-10 w-full min-w-0 items-center justify-center gap-1 whitespace-nowrap rounded-xl bg-[#69372e] px-1.5 text-[10px] font-semibold text-white transition hover:bg-[#a45c49] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 sm:gap-2 sm:px-3 sm:text-sm"><ShoppingBag size={13} className="shrink-0 sm:size-[15px]" /> <span className="sm:hidden">{inCart ? 'Update' : 'Add'}</span><span className="hidden sm:inline">{inCart ? 'Update bag' : 'Add to bag'}</span></button>
       </div>
     </article>
 

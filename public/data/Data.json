@@ -7,7 +7,7 @@
       "price": 2999,
       "discountPrice": 2499,
       "category": "Premium",
-      "image": "product-1.png"
+      "image": "product-1.jpg"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "price": 1899,
       "discountPrice": 1599,
       "category": "Serums",
-      "image": "product-2.png"
+      "image": "product-2.jpg"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "price": 1499,
       "discountPrice": 1299,
       "category": "Organic",
-      "image": "product-3.png"
+      "image": "product-3.jpg"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "price": 2199,
       "discountPrice": 1899,
       "category": "Therapeutic",
-      "image": "product-4.png"
+      "image": "product-4.jpg"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "price": 999,
       "discountPrice": 799,
       "category": "Mists",
-      "image": "product-5.png"
+      "image": "product-5.jpg"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "price": 1699,
       "discountPrice": 1399,
       "category": "Organic",
-      "image": "product-6.png"
+      "image": "product-6.jpg"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "price": 3499,
       "discountPrice": 2999,
       "category": "Premium",
-      "image": "product-7.png"
+      "image": "product-7.jpg"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "price": 1299,
       "discountPrice": 1099,
       "category": "Therapeutic",
-      "image": "product-8.png"
+      "image": "product-8.jpg"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "price": 1899,
       "discountPrice": 1599,
       "category": "Mists",
-      "image": "product-9.png"
+      "image": "product-9.jpg"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "price": 2499,
       "discountPrice": 2099,
       "category": "Organic",
-      "image": "product-10.png"
+      "image": "product-10.jpg"
     },
     {
       "id": 11,
@@ -97,7 +97,7 @@
       "price": 3999,
       "discountPrice": 3499,
       "category": "Premium",
-      "image": "product-11.png"
+      "image": "product-11.jpg"
     },
     {
       "id": 12,
@@ -106,7 +106,7 @@
       "price": 1599,
       "discountPrice": 1299,
       "category": "Therapeutic",
-      "image": "product-12.png"
+      "image": "product-12.jpg"
     },
     {
       "id": 13,
@@ -115,7 +115,7 @@
       "price": 1999,
       "discountPrice": 1699,
       "category": "Masks",
-      "image": "product-13.png"
+      "image": "product-13.jpg"
     },
     {
       "id": 14,
@@ -124,7 +124,7 @@
       "price": 2799,
       "discountPrice": 2399,
       "category": "Premium",
-      "image": "product-14.png"
+      "image": "product-14.jpg"
     },
     {
       "id": 15,
@@ -133,7 +133,7 @@
       "price": 1399,
       "discountPrice": 1199,
       "category": "Therapeutic",
-      "image": "product-15.png"
+      "image": "product-15.jpg"
     },
     {
       "id": 16,
@@ -142,7 +142,7 @@
       "price": 1799,
       "discountPrice": 1499,
       "category": "Organic",
-      "image": "product-16.png"
+      "image": "product-16.jpg"
     },
     {
       "id": 17,
@@ -151,7 +151,7 @@
       "price": 2199,
       "discountPrice": 1899,
       "category": "Mists",
-      "image": "product-17.png"
+      "image": "product-17.jpg"
     },
     {
       "id": 18,
@@ -160,7 +160,7 @@
       "price": 1299,
       "discountPrice": 1099,
       "category": "Organic",
-      "image": "product-18.png"
+      "image": "product-18.jpg"
     },
     {
       "id": 19,
@@ -169,7 +169,7 @@
       "price": 3299,
       "discountPrice": 2799,
       "category": "Masks",
-      "image": "product-19.png"
+      "image": "product-19.jpg"
     },
     {
       "id": 20,
@@ -178,7 +178,7 @@
       "price": 1699,
       "discountPrice": 1399,
       "category": "Serums",
-      "image": "product-20.png"
+      "image": "product-20.jpg"
     },
     {
       "id": 21,
@@ -187,7 +187,7 @@
       "price": 2599,
       "discountPrice": 2199,
       "category": "Serums",
-      "image": "product-21.png"
+      "image": "product-21.jpg"
     },
     {
       "id": 22,
@@ -196,7 +196,7 @@
       "price": 4999,
       "discountPrice": 4299,
       "category": "Premium",
-      "image": "product-22.png"
+      "image": "product-22.jpg"
     }
   ]
 }
